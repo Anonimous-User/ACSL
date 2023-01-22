@@ -55,7 +55,6 @@ def findLastOctal(s):
 
     octs = oct(int(bins, 2))
     octs = octs[2:]
-    print(octs, bins)
     if(not octs.__contains__("0")):
         return -1
     checker=-1
